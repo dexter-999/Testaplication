@@ -1,0 +1,129 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.iconscard{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    border: 2px solid rgb(239, 247, 253);
+    cursor: pointer;
+    font-size: 45px;
+    padding: 2px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(239, 247, 253);
+}
+.plus{
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    border: 2px solid rgb(239, 247, 253);
+    cursor: pointer;
+    font-size: 45px;
+    padding: 2px;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(239, 247, 253);
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+.plus:hover{
+    width: 100px;
+    height: 65px;
+    border-radius: 40px;
+    border: 2px solid rgb(239, 247, 253);
+    cursor: pointer;
+    font-size: 45px;
+    padding: 2px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(239, 247, 253);
+    transform: scale(1.02);
+    opacity: 1;
+}
+.plus-item{
+    position: absolute;
+    top: 29%;
+    left: 30%;
+    font-size: 25px;
+    text-align: start;
+
+    
+}
+.plus-item:hover{
+    position: absolute;
+    top: 29%;
+    font-size: 25px;
+    
+}
+.divicon{
+    font-size: 20px;
+}
+.service{
+    background-color: rgb(205, 230, 255);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 100px;
+    transition: all 0.5s ease-in-out;
+
+}
+.service:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.aa{
+    width: 40px;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(14, 74, 14);
+    border-bottom: 3px solid rgb(4, 48, 4);
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    padding: 5px;
+    list-style: none;
+    transition: all 0.8s ease;
+}
+.aa:hover{
+    width: 100px;
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 2px;
+    color: rgb(14, 74, 14);
+    border-bottom: 3px solid rgb(4, 48, 4);
+    position: absolute;
+    top: 1%;
+    left: 45%;
+    padding: 5px;
+}
+
+.card1{
+    background: linear-gradient(to bottom,rgb(201, 82, 22),rgb(122, 30, 7) 50%);
+}
+
+.card2{
+    background: linear-gradient(to bottom,red,rgb(102, 4, 4) 50%);
+}
+
+.card3{
+    background: linear-gradient(to bottom,green,rgb(4, 72, 4) 50%);
+}
+img{
+    width: 450px;
+    height: 350px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 2%;
+    top: -7%;
+}
+
+
+
